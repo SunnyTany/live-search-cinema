@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Rubik+Doodle+Shadow&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll;
+
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+
+  background-color: #f5d9d9;
+  background-image: url(../images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 77rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+
+  letter-spacing: 0.4rem;
+
+  color: #ffffff;
+
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-size: 2.4rem;
+}

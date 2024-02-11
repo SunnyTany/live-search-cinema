@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+  overflow-y: scroll;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #f5d9d9;
+  background-image: url(../../assets/images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.container {
+  max-width: 77rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.title {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  letter-spacing: 0.4rem;
+  color: $white-color;
+}
