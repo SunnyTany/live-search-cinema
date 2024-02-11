@@ -80,11 +80,17 @@ const HEAD_STYLE = `
   margin: 4.6rem auto;
 }
 
+@media (max-width: 768px) {
+  .search__start-message {
+    font-size: 1.6rem;
+  }
+}
+
 .movies {
   display: grid;
   margin-bottom: 3rem;
   gap: 1.4rem;
-  grid-template-columns: repeat(auto-fill, minmax(14.5rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
 }
 
 .movies__movie {

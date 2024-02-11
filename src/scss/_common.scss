@@ -28,3 +28,9 @@ body {
   letter-spacing: 0.4rem;
   color: $white-color;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.4rem;
+  }
+}
